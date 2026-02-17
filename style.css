@@ -260,8 +260,11 @@ header.scrolled {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=1920') center/cover;
+  /* background: url('https://images.pexels.com/photos/1108101/pexels-photo-1108101.jpeg?auto=compress&cs=tinysrgb&w=1920') center/cover; */
+  background: url('https://images.pexels.com/photos/3688760/pexels-photo-3688760.jpeg')center/cover;
+  /* background: url('https://images.pexels.com/photos/162625/grinder-hitachi-power-tool-flexible-162625.jpeg') center/cover; */
   z-index: -2;
+  opacity: 0.9;
 }
 
 .hero-overlay {
@@ -283,7 +286,7 @@ header.scrolled {
 }
 
 .hero-text {
-  color: var(--white);
+  color: var(--text-dark);
 }
 
 .hero-headline {
@@ -292,7 +295,7 @@ header.scrolled {
   font-weight: 800;
   line-height: 1.2;
   margin-bottom: 24px;
-  color: var(--white);
+  color: var(--black);
 }
 
 .services-snapshot {
@@ -302,7 +305,7 @@ header.scrolled {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 16px;
-  color: var(--accent-blue);
+  color: var(--black);
 }
 
 .services-snapshot .divider {
